@@ -56,6 +56,7 @@ class Department:
     @classmethod
     def drop_table(cls):
         """ Drop the table that persists Department instances """
+        
         sql = """
             DROP TABLE IF EXISTS departments;
         """
